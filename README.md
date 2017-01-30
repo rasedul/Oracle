@@ -1,6 +1,5 @@
-# abc
-aid of life repository
-Hello
+# abc-aid of life#
+Hello,
 I face a problem when I use command in terminal(CentOS 7) as yum install epel-release.Then exicute below:
 loaded plugins: fastestmirror, priorities
 Existing lock /var/run/yum.pid: another copy is running as pid 12616.
@@ -12,7 +11,7 @@ State : Sleeping, pid: 12616
 ....and continue these same messages.
 # I fix this situation #
 Open terminal and type
-yum install samba [Loging must root&localhost]
+yum install samba [Login must root&localhost]
 for to confirm about sleeping, pid:12616
 then type
 ps aux | grep yum
@@ -23,5 +22,5 @@ So go ahead and start using the first yum command like yum install epel-release
 done successfully complete,then type
 yum update
 done successfully update.
-So, enjoy everyone
+So, enjoy everyone,
 Thankyou
